@@ -1,8 +1,6 @@
 :root {
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", Serif;
     --body-font: Arial, Helvetica, Sans-Serif;
 }
@@ -28,7 +26,6 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
     padding: 16px;
     text-align: center;
     background-color: var(--accent1-color);
@@ -49,7 +46,6 @@ article {
 
 .hero {
     position: relative;
-    margin: 10 auto;
 }
 
 .hero img {
@@ -73,7 +69,7 @@ h1 {
     position: absolute;
     bottom: 25px;
     left: 15px;
-    padding: 0.65rem;
+    padding: 0.7rem;
     opacity: 0.8;
     color: #fff;
     background-color: var(--accent1-color);
@@ -82,8 +78,8 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-    height: 0 auto;
-    opacity: 20.6;
+    height: auto;
+    opacity: 0.9;
 }
 
 footer {
@@ -98,4 +94,8 @@ footer {
 
 footer img {
     width: 95px;
+}
+
+h2 {
+    padding: 0.1rem;
 }
