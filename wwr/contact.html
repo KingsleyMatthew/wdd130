@@ -40,7 +40,7 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.46310677985!2d3.119141801536951!3d6.548369372744865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1770634361328!5m2!1sen!2sng"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
@@ -58,17 +58,17 @@
                     <legend>Message Purpose</legend>
 
                     <label>
-                        <input type="radio" name="purpose" value="general" required>
+                        <input type="radio" id="red" name="purpose" value="general" required>
                         General Inquiry
                     </label>
 
                     <label>
-                        <input type="radio" name="purpose" value="reservation">
+                        <input type="radio" id="green" name="purpose" value="reservation">
                         Reservation Question
                     </label>
 
                     <label>
-                        <input type="radio" name="purpose" value="suggestion">
+                        <input type="radio" id="blue" name="purpose" value="suggestion">
                         Website Suggestion
                     </label>
                 </fieldset>
@@ -77,7 +77,7 @@
                 <textarea id="message" name="message" rows="5" required></textarea>
 
                 <label class="checkbox">
-                    <input type="checkbox" name="subscribe">
+                    <input type="checkbox" id="checkbox" name="subscribe">
                     Please subscribe me to the monthly newsletter
                 </label>
 
