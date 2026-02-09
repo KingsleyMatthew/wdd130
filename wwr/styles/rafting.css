@@ -94,7 +94,7 @@ footer {
 }
 
 footer img {
-    width: 95px;
+    width: 40px;
 }
 
 h2 {
@@ -185,5 +185,165 @@ header img {
 
 .adventure-gallery figcaption {
     margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.contact-page h1 {
+    position: static;
+    background: none;
+    color: #000;
+}
+
+/* ---------- GLOBAL ---------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+/* ---------- COMPANY INFO ---------- */
+.company-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.company-info h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.company-info p {
+    margin: 4px 0;
+}
+
+/* ---------- CONTACT GRID ---------- */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+    align-items: start;
+}
+
+/* ---------- MAP ---------- */
+.map iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+/* ---------- FORM ---------- */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form h2 {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: .5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 6px;
+    border: 1px solid #777;
+    border-radius: 4px;
+}
+
+fieldset {
+    border: none;
+    margin: 10px 0;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+fieldset label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.checkbox {
+    font-weight: normal;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #ddd;
+    border: 1px solid #777;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ---------- EMPLOYEES ---------- */
+.employees {
+    border: 1px solid #777;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.employees h2 {
+    margin-bottom: 20px;
+    background: none;
+    color: #000;
+}
+
+.employees figure {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.employees img {
+    width: 120px;
+    height: 120px;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.employees figcaption {
+    margin-top: 8px;
     font-size: 0.9rem;
 }
