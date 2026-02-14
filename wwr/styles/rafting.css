@@ -83,7 +83,7 @@ nav a {
 /* ---------- HEADER ---------- */
 header {
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 350px 1fr;
     align-items: center;
     background-color: var(--accent1-color);
 }
@@ -179,6 +179,10 @@ header img,
     position: static;
     background: none;
     color: #000;
+}
+
+.page-header h1 {
+    position: static;
 }
 
 .company-info {
@@ -299,4 +303,110 @@ footer {
 
 footer img {
     width: 40px;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--light);
+}
+
+.newsletter form {
+    margin-top: 1rem;
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.newsletter button {
+    padding: 0.5rem 1rem;
+    background-color: var(--accent1-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* CTA */
+.cta {
+    color: black;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    font-size: 1.2rem;
+}
+
+.cta-link {
+    color: #ffdd57;
+    /* bright, contrasting link color */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.cta-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* GRID INFO (HOME) */
+.grid-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.grid-info img {
+    width: 100%;
+}
+
+/* TRIP GRID */
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.trip-grid img {
+    width: 100%;
+}
+
+/* TABLE */
+.trip-table {
+    padding: 2rem;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+th {
+    background-color: var(--primary);
+    color: white;
+}
+
+.cta-contact {
+    /* dark contrasting section */
+    color: black;
+    text-align: center;
+    padding: 3rem 2rem;
 }
